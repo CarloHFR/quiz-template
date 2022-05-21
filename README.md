@@ -1,0 +1,1 @@
+This is a simple quiz template build in html/css and vanila javascript
