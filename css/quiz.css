@@ -1,12 +1,18 @@
 /* ======================= */
 /* Quiz                    */
 /* ======================= */
+
 h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .hidden{
     display: none;
+}
+
+.quiz-page{
+    position: relative;
+    min-height: 100vh;
 }
 
 .modal-header{
@@ -41,6 +47,7 @@ h3{
 
 .modal-footer {
     border: none;
+    margin-bottom: 100px;
 }
 
 #qid{
@@ -59,6 +66,10 @@ h3{
 .question-img{
     padding-top: 5px;
     text-align: center !important;
+}
+
+.img-size{
+    max-width: 80%;
 }
 
 .quiz-bold-white-content{
@@ -113,6 +124,49 @@ h3{
 .btn-block{
     text-align: left;
     position: relative;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.quiz-credits {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+}
+
+.quiz-credits p {
+    margin-bottom: 0;
+    color:  #fff;
+    font-weight: 700;
+}
+  
+.quiz-credits p a {
+    color:  #fff;
+}
+
+.quiz-credits p a:hover {
+    color:  #fff;
+    text-decoration: none;
+}
+
+.quiz-credits .nav-inline .nav-link {
+    color:  #fff;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.quiz-credits .nav-inline .nav-link:hover {
+    color: #3c9cfd;
+}
+
+.dev-info
+{
+    text-align: center;
 }
 
 .element-animation1{

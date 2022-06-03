@@ -9,7 +9,8 @@
 
         <!-- External styles -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
         <!-- Quiz styles -->
         <link rel="stylesheet" href="css/quiz.css">
 
@@ -24,12 +25,11 @@
         <script src="js/quiz.js"></script>
     </head>
 
-    <body class="bg-info">
-
+    <body class="bg-info quiz-page">
         <audio id="success" src="audio/success.mp3" preload="auto"></audio>
         <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
 
-        <div class="container-fluid col-9">
+        <div class="container-fluid col-sm-9">
             <div class="">
                 <div class="modal-content content-modal bg-info initial-modal">
                     <div class="modal-header">
@@ -51,7 +51,6 @@
                     </div>
                 </div>
 
-
                 <div class="modal-content bg-info about-modal hidden">
                     <div class="modal-header">
                         <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Título do quiz</h3>
@@ -68,6 +67,16 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="quiz-credits">
+                <div class="col-12">
+                    <div class="dev-info text-info">
+                        <p>Designed with <span class="fas fa-heart"></span> by <a href="https://github.com/carlohfr" rel="nofollow" target="_blank">carlohfr</a></p>
+                    </div>  
+                </div>
+            </div>
+        </footer>
 
         <script>
             $('.about').click(function() {
